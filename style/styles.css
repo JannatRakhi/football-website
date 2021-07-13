@@ -1,0 +1,135 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* common styles or utilities*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* toppart style */
+.header-container {
+  width: 1440px;
+  height: 677px;
+
+  background-color: #2d25a0;
+}
+.nav-container {
+  padding-top: 42px;
+  padding-left: 120px;
+}
+nav ul {
+  display: flex;
+
+  flex-direction: row;
+}
+nav li {
+  list-style: none;
+  margin-right: 36px;
+  padding: 0px 10px;
+}
+nav li a {
+  text-decoration: none;
+  color: #ffffff;
+
+  font-size: 20px;
+}
+nav li:hover {
+  background-color: lightgrey;
+  font-size: 25px;
+  transition: font-size 2s linear;
+}
+.detail-container {
+  display: flex;
+}
+.header-title-container {
+  padding-top: 121px;
+
+  padding-left: 156px;
+}
+.header-title-container p {
+  color: #ffffff;
+
+  font-size: 64px;
+}
+.image-container img {
+  width: 556.01px;
+  height: 438px;
+  margin-left: 102px;
+  margin-top: 67px;
+}
+.login-button {
+  display: flex;
+  justify-content: center;
+}
+
+.button-link {
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  color: #ffffff;
+  margin-left: 156px;
+  margin-right: 46px;
+}
+.button-link:hover {
+  background-color: lightgrey;
+  font-size: 25px;
+  transition: font-size 2s ease;
+  text-align: center;
+}
+.button-link-container {
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  color: #ffffff;
+  margin-left: 10px;
+
+  text-decoration: none;
+}
+
+/* topplayer */
+
+.players {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 25px auto;
+}
+.player {
+  margin: auto 80px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px lightgray;
+  margin-bottom: 20px;
+}
+.player-banner {
+  width: 92%;
+}
+.player .player-banner img {
+  width: 100%;
+  margin: 4% 4% auto 4%;
+  display: inline-block;
+}
+player-details {
+  width: 92%;
+  margin: 0px 4% auto 4%;
+}
+
+.player-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.player-name {
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 10px;
+}
