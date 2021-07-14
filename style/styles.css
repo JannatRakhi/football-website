@@ -305,6 +305,7 @@ teams style */
   .header-container {
     width: 688px;
     height: 1000px;
+    margin-left: 10px;
   }
   .nav-container {
     display: none;
