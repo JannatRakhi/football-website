@@ -320,11 +320,23 @@ teams style */
 
     width: 100%;
   }
+  .container {
+    width: 330px;
+    height: 4458px;
+  }
+  .photo-frame {
+    width: 330px;
+    height: 4458px;
+  }
 
   .header-title-container p {
     font-size: 36px;
     margin: 0;
     width: 100%;
+  }
+  .allhighlight-container {
+    width: 328px;
+    height: 248px;
   }
   .highlights-title-container h1 {
     font-size: 36px;
@@ -340,7 +352,10 @@ teams style */
     width: 300px;
     height: 250px;
   }
-
+  .hightlights-image-container img {
+    width: 300px;
+    height: 250px;
+  }
   .players,
   .teams,
   .photo-frame {
