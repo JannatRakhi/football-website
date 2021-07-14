@@ -28,6 +28,9 @@ main {
   padding-top: 42px;
   padding-left: 120px;
 }
+.nav-container i {
+  margin-right: 10px;
+}
 nav ul {
   display: flex;
 
@@ -303,16 +306,39 @@ teams style */
 
 @media only screen and (max-width: 688px) {
   .header-container {
-    width: 688px;
-    height: 1000px;
-    margin-left: 10px;
+    width: 100%;
+
+    margin: 0;
   }
   .nav-container {
     display: none;
   }
   .detail-container {
-    display: grid;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+    width: 100%;
+  }
+
+  .header-title-container p {
+    font-size: 36px;
+    margin: 0;
+    width: 100%;
+  }
+  .highlights-title-container h1 {
+    font-size: 36px;
+    margin-left: 30px;
+    width: 100%;
+  }
+  .highlights-title-container p {
+    font-size: 36px;
+    margin-left: 25px;
+    width: 100%;
+  }
+  .image-container img {
+    width: 300px;
+    height: 250px;
   }
 
   .players,
